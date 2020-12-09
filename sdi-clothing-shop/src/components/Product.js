@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 
 const Product = ({ productList }) => {
     const { productId } = useParams()
-
+    
     const product = productList.find(product => product.id === Number(productId));
     console.log(product);
 

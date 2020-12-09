@@ -7,7 +7,7 @@ import {
 
 const ProductList = ({ productList }) => {
     const match = useRouteMatch();
-    console.log("match: ", match);
+    console.log("we are rendering the productList. ");
     return(            
         <>
             <h3>Our product list</h3>
